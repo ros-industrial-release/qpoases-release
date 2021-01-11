@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>qpoases</name>
+  <version>3.2.1</version>
+  <description>An Implementation of the Online Active Set Strategy</description>
+  <author>Hans Joachim Ferreau</author>
+  <author>Andreas Potschka</author>
+  <author>Christian Kirches</author>
+  <maintainer email="levi.armstrong@swri.org">Levi Armstrong</maintainer>
+  <url type="repository">https://github.com/coin-or/qpOASES</url>
+  <license>LGPL-2.1</license>
+
+  <run_depend>catkin</run_depend>
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
