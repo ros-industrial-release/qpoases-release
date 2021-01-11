@@ -124,6 +124,9 @@ INSTALL(DIRECTORY include/qpOASES
   FILES_MATCHING PATTERN "*.hpp"
   PATTERN "*.ipp"
   PATTERN ".svn" EXCLUDE)
+  
+# Install catkin package.xml
+install(FILES package.xml DESTINATION share/qpoases)
 
 ############################################################
 ######################### examples #########################
